@@ -1,0 +1,43 @@
+body{
+    max-width: 700px;
+    width:80%;
+    margin: 20px auto;
+}
+
+.name{
+    color: rgb(2, 97, 42);
+    font-family: Source Sans Pro;
+    size: 3rem;
+    text-align:center;
+    width: auto;
+    margin: 20px auto;
+    border-bottom: 5px dashed rgba(8, 94, 42, 0.301);
+}
+.name:hover{
+    color: rgba(8, 94, 42, 0.301);
+}
+
+.wrap{
+    border: 20px solid rgba(128, 128, 128, 0.589);
+    padding: 20px;
+    /*max-width: 700px;
+    width:80%;*/
+    margin: 20px auto;
+    font-family: Source Sans Pro;
+}
+
+.date{
+    color:#3498db;
+    letter-spacing:0.2rem;
+    text-transform: uppercase;
+}
+
+.title{
+    color: #2c3e50;
+    size: 2rem;
+}
+
+.quote{
+    border-left:5px solid rgba(128, 128, 128, 0.589);
+    padding-left:5px;
+}
